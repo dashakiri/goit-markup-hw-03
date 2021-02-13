@@ -1,0 +1,88 @@
+:root {
+  --primary-color-text: #757575;
+  --secondary-color-headings: #212121;
+  --logo-black: #000000;
+  --primary-color-white: #ffffff;
+  --secondary-color-white: rgba(255, 255, 255, 0.6);
+  --blue-color: #2196f3;
+  --background-color-grey: #f5f4fa;
+  --background-color-dark: #2f303a;
+  --set-gap: 30px;
+}
+
+.list-item.current {
+  color: var(--blue-color);
+}
+
+/* main */
+
+.portfolio .container {
+  width: 1200px;
+  padding: 94px 15px;
+  margin: 0 auto;
+}
+
+.filter {
+  display: flex;
+  justify-content: center;
+}
+
+.filter .filter-button {
+  color: var(--secondary-color-headings);
+  background-color: var(--background-color-grey);
+  border: none;
+}
+
+.filter .filter-button:hover,
+.filter .filter-button:focus {
+  color: var(--primary-color-white);
+  background-color: var(--blue-color);
+}
+
+.filter-item:not(:first-child) {
+  margin-left: 8px;
+}
+
+.filter-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+
+  padding: 6px 22px;
+}
+
+.project-list {
+  display: flex;
+  flex-wrap: wrap;
+
+  margin-left: calc(-1 * var(--set-gap));
+  margin-bottom: calc(-1 * var(--set-gap));
+  margin-top: 50px;
+}
+
+.project-item {
+  flex-basis: calc(100% / 3 - var(--set-gap));
+  margin-left: var(--set-gap);
+  margin-bottom: var(--set-gap);
+  background-color: #ffffff;
+  outline: 1px solid #eeeeee;
+}
+
+.card-text {
+  padding: 20px 24px;
+}
+
+.project-heading {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  margin-bottom: 4px;
+}
+
+.project-text {
+  font-size: 16px;
+  line-height: 1.87;
+  margin: 0;
+}
