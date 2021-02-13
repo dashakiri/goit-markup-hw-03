@@ -16,10 +16,9 @@
 
 /* main */
 
-.portfolio .container {
-  width: 1200px;
-  padding: 94px 15px;
-  margin: 0 auto;
+.portfolio {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .filter {

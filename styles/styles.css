@@ -83,6 +83,11 @@
   text-transform: uppercase;
 }
 
+.features-text {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
 /* services + team*/
 
 .services {
