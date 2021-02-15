@@ -64,8 +64,12 @@
   flex-basis: calc(100% / 3 - var(--set-gap));
   margin-left: var(--set-gap);
   margin-bottom: var(--set-gap);
+}
+
+.card {
+  display: block;
   background-color: #ffffff;
-  outline: 1px solid #eeeeee;
+  border: 1px solid #eeeeee;
 }
 
 .card-text {
@@ -84,4 +88,5 @@
   font-size: 16px;
   line-height: 1.87;
   margin: 0;
+  color: var(--primary-color-text);
 }

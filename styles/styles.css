@@ -149,8 +149,7 @@
 }
 
 .member-info {
-  padding-top: var(--set-gap);
-  padding-bottom: var(--set-gap);
+  padding: var(--set-gap) 10px;
 }
 
 .member-position {
