@@ -110,7 +110,7 @@
   margin-left: calc(-1 * var(--set-gap));
 }
 
-.services-img {
+.img-item {
   display: block;
   flex-basis: calc(100% / 3 - var(--set-gap));
   margin-left: var(--set-gap);
