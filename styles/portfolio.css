@@ -64,12 +64,8 @@
   flex-basis: calc(100% / 3 - var(--set-gap));
   margin-left: var(--set-gap);
   margin-bottom: var(--set-gap);
-}
-
-.card {
-  display: block;
   background-color: #ffffff;
-  border: 1px solid #eeeeee;
+  outline: 1px solid #eeeeee;
 }
 
 .card-text {
